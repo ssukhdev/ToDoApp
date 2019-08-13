@@ -1,0 +1,88 @@
+html{
+    height:100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 188, 255), rgb(245, 233, 67));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container{
+    box-shadow: 0 0 3px rgb(201, 199, 199);
+    width: 360px;
+    margin: 100px auto;
+    background-color: rgba(243, 239, 239, 0.979);
+}
+
+h1{
+    text-transform: uppercase;
+    background-color: rgb(60, 137, 201);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.fa-plus{
+    float: right;
+}
+
+input{
+    font-size: 18px;
+    background-color: rgba(243, 239, 239, 0.979);
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    color: rgb(60, 137, 201);
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus{
+    background-color: white;
+    border: 3px solid rgb(60, 137, 201);
+    outline: none;
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+span{
+    background-color: rgb(228, 64, 23);
+    color: white;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    width: 0;
+    display: inline-block;
+    transition: 200ms linear;
+    opacity: 0;
+}
+
+li{
+    height: 40px;
+    line-height: 40px;
+    color: rgb(49, 49, 49);
+}
+
+li:nth-of-type(odd){
+    background-color: white;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
+
+.done{
+    color: grey;
+    text-decoration: line-through;
+}
+
